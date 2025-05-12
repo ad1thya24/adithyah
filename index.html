@@ -1,89 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adithya H | Cybersecurity Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <style>
-        body { font-family: 'Inter', sans-serif; margin: 0; padding: 0; background: #f9fafb; color: #1f2937; }
-        header { background: linear-gradient(90deg, #2c3e50, #4ca1af); color: white; padding: 50px 0; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
-        header h1 { font-size: 2.5em; margin: 0; }
-        header p { font-size: 1.2em; margin-top: 10px; }
-        section { max-width: 1000px; margin: 60px auto; padding: 0 20px; background: white; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); padding: 40px; }
-        h2 { color: #111827; border-bottom: 2px solid #4ca1af; padding-bottom: 8px; margin-top: 0; }
-        ul { list-style: none; padding: 0; }
-        li { margin: 16px 0; line-height: 1.6; }
-        .skills { margin-top: 20px; }
-        .skills span { display: inline-block; background: #4ca1af; color: white; padding: 10px 16px; border-radius: 9999px; margin: 8px 8px 0 0; font-size: 0.9em; }
-        footer { background: #2c3e50; color: white; text-align: center; padding: 20px 0; margin-top: 60px; border-top-left-radius: 12px; border-top-right-radius: 12px; }
-        a { color: #4ca1af; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-        @media (max-width: 600px) { header h1 { font-size: 2em; } section { padding: 20px; } }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adithya H | Cybersecurity Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <header>
-        <h1>Adithya H</h1>
-        <p>Certified Ethical Hacker | VAPT Engineer | Cybersecurity Enthusiast</p>
-    </header>
+<body class="bg-gray-50 text-gray-800 font-sans">
+  <header class="bg-white shadow p-6">
+    <div class="max-w-4xl mx-auto">
+      <h1 class="text-3xl font-bold">Adithya H</h1>
+      <p class="text-sm text-gray-600">Cybersecurity Professional | CEH | VAPT Engineer</p>
+      <p class="mt-2">📍 Bangalore, India</p>
+      <p>📧 <a href="mailto:adithya.harish1971@gmail.com" class="text-blue-500">adithya.harish1971@gmail.com</a></p>
+      <p>🔗 <a href="https://linkedin.com/in/adithya-harish-1568751b5" class="text-blue-500">LinkedIn</a></p>
+    </div>
+  </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a Cybersecurity Professional with over 2 years of experience specializing in Vulnerability Assessment and Penetration Testing (VAPT). Known for identifying and mitigating security vulnerabilities, I help organizations enhance their security posture and minimize business risks. With strong analytical skills and attention to detail, I deliver clear, actionable insights to stakeholders.</p>
+  <main class="max-w-4xl mx-auto py-10 px-4 space-y-12">
+    <section>
+      <h2 class="text-2xl font-semibold mb-4">About Me</h2>
+      <p>
+        Cyber Security Professional with over 2 years of experience specializing in Vulnerability Assessment (VA) and Penetration Testing (PT). 
+        Proven ability to identify and mitigate security vulnerabilities, enhance system security, and protect sensitive data. 
+        Strong analytical skills, attention to detail, and a proactive approach to problem-solving.
+      </p>
     </section>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <div class="skills">
-            <span>Vulnerability Assessment</span>
-            <span>Penetration Testing</span>
-            <span>Burp Suite</span>
-            <span>Metasploit</span>
-            <span>Frida</span>
-            <span>Nmap</span>
-            <span>Kali Linux</span>
-            <span>SQLmap</span>
-            <span>Ghidra</span>
-        </div>
+    <section>
+      <h2 class="text-2xl font-semibold mb-4">Technical Skills & Certifications</h2>
+      <ul class="list-disc list-inside space-y-1">
+        <li><strong>Key Skills:</strong> Vulnerability Assessment, Penetration Testing, Client Collaboration</li>
+        <li><strong>Tools:</strong> Burp Suite, Metasploit, Frida, Nmap, Kali Linux, ADB, SQLmap, Ghidra</li>
+        <li><strong>Certifications:</strong> CEH Practical v12, Mobile Application Pen Testing, Practical Web App Security</li>
+      </ul>
     </section>
 
-    <section id="experience">
-        <h2>Experience</h2>
-        <ul>
-            <li>
-                <strong>VAPT Engineer</strong> at Scrut Automation (Jan 2025 - Present)<br>
-                &bull; Led penetration testing and security assessments for applications and networks.<br>
-                &bull; Provided detailed reports and tailored security solutions to clients.<br>
-                &bull; Gained hands-on red teaming and network security experience.
-            </li>
-            <li>
-                <strong>Cyber Security Consultant</strong> at CyRAACS (May 2023 - Dec 2024)<br>
-                &bull; Conducted vulnerability assessments and penetration testing.<br>
-                &bull; Enhanced security policies and reported security posture improvements.<br>
-                &bull; Built strong client trust through clear, actionable insights.
-            </li>
+    <section>
+      <h2 class="text-2xl font-semibold mb-4">Work Experience</h2>
+
+      <div class="mb-6">
+        <h3 class="text-xl font-bold">Scrut Automation — VAPT Engineer</h3>
+        <p class="text-sm text-gray-600">Jan 2025 - Present</p>
+        <ul class="list-disc list-inside mt-2 space-y-1">
+          <li>Led penetration testing initiatives simulating real-world attacks to uncover flaws in applications, networks, and infrastructure.</li>
+          <li>Designed and executed security assessments to detect system vulnerabilities and apply effective remediation.</li>
+          <li>Applied red teaming and network-based assessments to identify potential attack vectors and improve defenses.</li>
+          <li>Compiled detailed reports outlining vulnerabilities, risks, and recommendations.</li>
+          <li>Acted as a trusted advisor to clients, delivering tailored security solutions and regular risk briefings.</li>
         </ul>
-    </section>
+      </div>
 
-    <section id="certifications">
-        <h2>Certifications</h2>
-        <ul>
-            <li>Certified Ethical Hacker Practical v12 (CEH)</li>
-            <li>Mobile Application Penetration Testing</li>
-            <li>Practical Web Application Security and Testing</li>
+      <div>
+        <h3 class="text-xl font-bold">CyRAACS — Cyber Security Consultant</h3>
+        <p class="text-sm text-gray-600">May 2023 - Dec 2024</p>
+        <ul class="list-disc list-inside mt-2 space-y-1">
+          <li>Developed and executed robust vulnerability assessment programs using leading tools and techniques.</li>
+          <li>Conducted thorough penetration testing to uncover and address system and application vulnerabilities.</li>
+          <li>Refined organizational security policies to meet emerging threats and compliance standards.</li>
+          <li>Created and delivered detailed security reports with clear, actionable insights for stakeholders.</li>
+          <li>Fostered strong client relationships through transparent communication and collaboration.</li>
         </ul>
+        <p class="mt-2 font-semibold">Key Achievements:</p>
+        <ul class="list-disc list-inside ml-4">
+          <li>Successfully identified and mitigated critical vulnerabilities, significantly improving client security postures.</li>
+          <li>Consistently praised by clients for actionable insights and clarity, resulting in repeat business and referrals.</li>
+        </ul>
+      </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:adithya.harish1971@gmail.com">adithya.harish1971@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/adithya-harish-1568751b5" target="_blank">adithya-harish-1568751b5</a></p>
-        <p>Location: Bangalore, India</p>
+    <section>
+      <h2 class="text-2xl font-semibold mb-4">Education</h2>
+      <p><strong>Bachelor’s in Information Science and Engineering</strong> – 2023</p>
+      <p>Year of Birth: 2001</p>
     </section>
+  </main>
 
-    <footer>
-        &copy; 2025 Adithya H. All rights reserved.
-    </footer>
+  <footer class="bg-white shadow mt-12 p-6 text-center text-sm text-gray-600">
+    <p>© 2025 Adithya H. All rights reserved.</p>
+  </footer>
 </body>
 </html>
